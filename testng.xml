@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="GermanCalling">
+  <test thread-count="5" parallel="tests" name="GermanCalling">
+    <classes>
+      <class name="testscenarios.TC_02"/>
+      <class name="testscenarios.TC_01"/>
+    </classes>
+  </test> <!-- GermanCalling -->
+</suite> <!-- GermanCalling -->
